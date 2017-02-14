@@ -101,7 +101,7 @@ public class CameraManager {
             Log.e(TAG, "preview width=" + mPreviewSize.width + " height=" + mPreviewSize.height);
 
             try {
-                parameters.setPreviewFormat(ImageFormat.NV16);
+                parameters.setPreviewFormat(ImageFormat.YV12);
 //                parameters.setFlashMode("off");
 //                parameters.setWhiteBalance(Camera.Parameters.WHITE_BALANCE_AUTO);
 //                parameters.setSceneMode(Camera.Parameters.SCENE_MODE_AUTO);
